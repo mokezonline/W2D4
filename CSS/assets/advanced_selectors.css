@@ -4,6 +4,12 @@ body {
   /* If the user cannot load the Arial font, the sans-serif font is used */
   font-family: Arial, sans-serif;
   background-color: #FEFFF1;
+  cursor: pointer;
+  outline: none;
+}
+
+form input:last-child {
+  background-color: gold;
 }
 
 h1 {
@@ -43,4 +49,6 @@ ol {
   font-weight: bold;
 }
 
+form {
 
+}
